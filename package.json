@@ -1,0 +1,24 @@
+{
+  "name": "areus-http-resource",
+  "version": "0.1.0",
+  "description": "Areus HTTP Resource Creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r should --recursive",
+    "test-watch": "mocha -r should --recursive -w -G -R min",
+    "test-cov": "istanbul cover _mocha -- -r should --recursive"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "istanbul": "^0.3.2",
+    "should": "^3.3.2",
+    "sinon": "^1.10.0"
+  },
+  "keywords": [
+    "areus",
+    "resource",
+    "router"
+  ],
+  "author": "Yuriy Nemtsov <nemtsov@gmail.com> (http://yuriynemtsov.com/)",
+  "license": "MIT"
+}
