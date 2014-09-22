@@ -37,7 +37,7 @@ UsersResource.prototype.getAll = function (req, res, next) {
 };
 ```
 
-`route` is the only special method. It takes an `express.Router` as the first and only argument.
+`route()` is the only special method. It takes an `express.Router` as the first and only argument.
 Use it to delegate handling of different types of requests to the appropriate methods of the class.
 
 
