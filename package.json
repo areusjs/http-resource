@@ -1,7 +1,12 @@
 {
   "name": "areus-http-resource",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Areus HTTP Resource Creator",
+  "author": "Yuriy Nemtsov <nemtsov@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/areusjs/http-resource.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha -r should --recursive",
@@ -19,6 +24,5 @@
     "resource",
     "router"
   ],
-  "author": "Yuriy Nemtsov <nemtsov@gmail.com> (http://yuriynemtsov.com/)",
   "license": "MIT"
 }
